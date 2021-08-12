@@ -1,0 +1,124 @@
+.headline {
+  background: url("https://www.alpha-orbital.com/assets/images/bg/elite-planet.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-shadow: 0 2px 7px #000;
+  text-transform: uppercase;
+  text-align: center;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.text .title,
+.text .subtitle {
+  font-size: 46px;
+  line-height: 62px;
+  margin-bottom: 48px;
+  color: #fff;
+  font-weight: 300;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 16px;
+}
+
+.text .subtitle {
+  font-size: 30px;
+}
+
+.specification {
+  background-color: #ebebeb;
+}
+
+.specification .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 30px 75px;
+}
+
+.specification .content .left {
+  width: 33%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.specification .content .left h2 {
+  font-family: Dosis, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.specification .content .right {
+  width: 66%;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.specification .content .right p {
+  margin-bottom: 15px;
+  color: #252525;
+}
+
+.specification .content .right .dimmed {
+  color: #5b5b5b;
+}
+
+.ship-list {
+  background: repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5) 2px,
+      rgba(0, 0, 0, 0.4) 2px,
+      rgba(0, 0, 0, 0.4) 4px
+    ),
+    url("https://www.alpha-orbital.com/assets/images/bg/elite-station.jpg");
+  background-size: cover;
+}
+
+.ship-list .columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 30px 75px;
+}
+
+.ship-list .columns p {
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.ship-list .columns a {
+  font-size: 22px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+  color: #ff5722;
+}
+
+.ship-list .columns a:hover {
+  color: #df5125;
+}
+
+.ship-list .columns .column {
+  width: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #ebebeb;
+}
+
+.footer p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+}

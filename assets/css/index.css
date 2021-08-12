@@ -1,0 +1,260 @@
+.latest-news {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  padding-left: 9%;
+  padding-right: 9%;
+  background-image: repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5) 2px,
+      rgba(0, 0, 0, 0.4) 2px,
+      rgba(0, 0, 0, 0.4) 4px
+    ),
+    url("https://www.alpha-orbital.com/assets/images/bg/stardots.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.latest-news .images {
+  background-color: black;
+  border: 3px solid black;
+  box-shadow: 0 0 13px black;
+}
+
+.latest-news .top {
+  padding-bottom: 4px;
+}
+
+.latest-news .top,
+.latest-news .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-news .top img,
+.latest-news .bottom img,
+.guides img {
+  width: calc(100% + 60px);
+  display: block;
+}
+
+.latest-news .top figure {
+  width: 49.8%;
+  overflow: hidden;
+}
+
+.latest-news .bottom figure {
+  width: 33.1%;
+  overflow: hidden;
+}
+
+figure {
+  position: relative;
+}
+
+figure img {
+  opacity: 0.6;
+  transform: translateX(-60px);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+figure:hover img {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+figure:hover figcaption p,
+figure:hover figcaption h2 {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+figure figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 40px;
+  line-height: 28px;
+}
+
+figure figcaption h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  transform: translateY(40px);
+  transition: transform 0.35s ease;
+  letter-spacing: 1px;
+}
+
+figure figcaption p {
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  transform: translateY(40px);
+  transition: opacity 0.2s, transform 0.35s;
+  opacity: 0;
+}
+
+.guides {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.guides figure {
+  width: 33.2%;
+  overflow: hidden;
+}
+
+.guides figure figcaption h2 {
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+.news {
+  margin-top: 22px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.news > * {
+  width: 49%;
+}
+
+.news h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.news .tile {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #e1e1e1;
+}
+
+.news .tile:nth-child(7),
+.news .tile:nth-child(8) {
+  border-bottom: none;
+}
+
+.news .tile img {
+  float: left;
+  width: 100px;
+  border-radius: 2px;
+}
+
+.news .tile .info {
+  margin-left: 16px;
+}
+
+.news .tile .info a {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #337ab7;
+}
+
+.news .tile .info a:hover {
+  color: #4879a4;
+}
+
+.news .tile .info .meta {
+  display: flex;
+  align-items: center;
+  color: #949494;
+}
+
+.news .tile .info .meta .icon {
+  height: 11px;
+  width: auto;
+  stroke-width: 2.5;
+}
+
+.news .tile .info .meta span {
+  font-size: 11px;
+  line-height: 20px;
+  margin-left: 4px;
+}
+
+.news .tile .info .description {
+  color: #6d6d6d;
+  font-size: 14px;
+}
+
+.bgc {
+  background-image: repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 2px,
+      rgba(0, 0, 0, 0.1) 2px,
+      rgba(0, 0, 0, 0.1) 4px
+    ),
+    url("https://www.alpha-orbital.com/assets/images/bg/eve-bg.jpg");
+  background-size: cover;
+  padding: 80px 30px;
+}
+
+.bgc .inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.bgc .left {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bgc .left a {
+  text-align: center;
+  width: 150px;
+  border-radius: 2px;
+  padding: 12px 5px;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  background-color: #4879a4;
+  transition: background-color 0.25s linear;
+}
+
+.bgc .left a:hover {
+  background-color: #286090;
+}
+
+.bgc .right {
+  width: 65%;
+}
+
+.bgc .right p {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #c3c3c3;
+  margin: 15px 0;
+}
+
+.footer {
+  padding: 10px 0;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 28px;
+}

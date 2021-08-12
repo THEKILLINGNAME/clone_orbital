@@ -1,0 +1,279 @@
+body {
+  background-image: repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5) 2px,
+      rgba(0, 0, 0, 0.4) 2px,
+      rgba(0, 0, 0, 0.4) 4px
+    ),
+    url("https://www.alpha-orbital.com/assets/images/bg/stardots.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.info {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.info .title {
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.info .description {
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 3px;
+  color: #c3c3c3;
+}
+
+.container {
+  display: flex;
+}
+
+.container .sidebar,
+.container .content {
+  margin: 0.4rem;
+}
+
+.sidebar .widget {
+  margin-bottom: 20px;
+}
+
+.sidebar .widget:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar {
+  width: 32%;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 13px black;
+  padding: 20px;
+  height: 100%;
+}
+
+.sidebar .donate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar .donate .profile {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .donate .description {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  font-weight: 400;
+  color: #ccc;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.sidebar .donate .player {
+  margin-bottom: 5px;
+}
+
+.sidebar .donate .name {
+  color: #f36c00;
+  font-weight: 700;
+}
+
+.sidebar .donate .avatar {
+  width: 46px;
+  border-radius: 50%;
+}
+
+.sidebar .search {
+  display: flex;
+}
+
+.sidebar .search > * {
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+
+.sidebar .search input {
+  width: 70%;
+  margin-right: 12px;
+  font-size: 13px;
+  color: #666;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.sidebar .search button {
+  flex-grow: 1;
+  background-color: #4879a4;
+}
+
+.sidebar .search button .icon {
+  width: 13px;
+  color: white;
+  stroke-width: 3px;
+}
+
+.sidebar h4.title {
+  font-family: "Dosis", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.sidebar h4.title:after {
+  content: "";
+  margin-top: 30px;
+  height: 1px;
+  width: 60px;
+  top: 0;
+  left: -4px;
+  background-color: rgb(173, 173, 173);
+  position: absolute;
+}
+
+.sidebar .categories ul,
+.sidebar .links ul {
+  font-size: 14px;
+  list-style-type: none;
+  color: white;
+}
+
+.sidebar .categories li,
+.sidebar .links li {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .categories a,
+.sidebar .links a {
+  line-height: 28px;
+  color: #ececec;
+}
+
+.sidebar .categories a:hover,
+.sidebar .links a:hover {
+  color: white;
+}
+
+.sidebar .categories .icon,
+.sidebar .links .icon {
+  width: 14px;
+  margin-right: 3px;
+}
+
+.sidebar .archive .post {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px dashed rgba(103, 112, 110, 0.34);
+}
+
+.sidebar .archive .posts img {
+  width: 70px;
+  height: 70px;
+  margin-top: 7px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.sidebar .archive a {
+  color: #ececec;
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.sidebar .archive a:hover {
+  color: white;
+}
+
+.sidebar .archive p {
+  color: #89898a;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.sidebar .archive img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.sidebar .disclaimer p {
+  color: #c3c3c3;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.container .content {
+  width: 68%;
+  background-color: white;
+  border-radius: 2px;
+  padding: 30px;
+  height: 100%;
+  margin-bottom: 40px;
+  box-shadow: 0 0 13px #000;
+}
+
+.content .title h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+.content .title .meta {
+  margin-bottom: 15px;
+  border-bottom: solid 1px #89898a;
+  text-transform: uppercase;
+}
+
+.content .title .meta p {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 11px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #89898a;
+}
+
+.content .text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.content .text p {
+  margin-bottom: 10px;
+}
+
+.content .text h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 20px 0 10px;
+}
+
+.content .text ul {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  font-size: 12px;
+  padding: 20px 20px;
+  color: #c3c3c3;
+}

@@ -1,0 +1,145 @@
+.headline {
+  background: repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 2px,
+      rgba(0, 0, 0, 0.1) 2px,
+      rgba(0, 0, 0, 0.1) 4px
+    ),
+    url("https://www.alpha-orbital.com/assets/images/bg/bg-6.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-shadow: 0 2px 7px #000;
+  text-transform: uppercase;
+  text-align: center;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.text .title,
+.text .subtitle {
+  font-size: 46px;
+  line-height: 62px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 300;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 16px;
+}
+
+.text .subtitle {
+  font-size: 30px;
+}
+
+.big {
+  background-color: #ebebeb;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 90px 75px;
+}
+
+.content .left {
+  width: 56%;
+  padding-right: 95px;
+  padding-left: 15px;
+}
+
+.content .left h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #252525;
+  letter-spacing: 1px;
+}
+
+.content .right {
+  width: 150%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.content .right p {
+  margin-bottom: 15px;
+  color: #252525;
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.big-image {
+  background: repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 2px,
+      rgba(0, 0, 0, 0.1) 2px,
+      rgba(0, 0, 0, 0.1) 4px
+    ),
+    url(https://www.alpha-orbital.com/assets/images/bg/stardots.jpg);
+  background-position-y: -90px;
+}
+
+.big-image .left h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.big-image .left h2,
+.big-image .right p {
+  color: #fff;
+}
+
+.right.diff {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right.diff .columns {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 33%;
+}
+
+.right.diff .columns:first-child {
+  margin-left: 0;
+}
+
+.right.diff .columns a {
+  color: #656565;
+  padding: 1px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.right.diff .columns a:hover {
+  color: #1a1a1a;
+}
+
+.copyright {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #ebebeb;
+}
+
+.copyright .section .row {
+  padding-left: 90px;
+}
+
+.copyright .section .row p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 15px;
+}
